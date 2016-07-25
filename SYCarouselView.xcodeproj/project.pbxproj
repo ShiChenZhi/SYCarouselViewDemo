@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE249A01D460DC500067808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2499F1D460DC500067808 /* main.m */; };
+		BCE249A31D460DC500067808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE249A21D460DC500067808 /* AppDelegate.m */; };
+		BCE249AB1D460DC500067808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE249AA1D460DC500067808 /* Assets.xcassets */; };
+		BCE249AE1D460DC500067808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE249AC1D460DC500067808 /* LaunchScreen.storyboard */; };
+		BCE249B91D460DC500067808 /* SYCarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE249B81D460DC500067808 /* SYCarouselViewTests.m */; };
+		BCE249C41D460DC500067808 /* SYCarouselViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE249C31D460DC500067808 /* SYCarouselViewUITests.m */; };
+		BCE249D51D460E3000067808 /* SYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE249D41D460E3000067808 /* SYViewController.m */; };
+		BCE249D91D460F9500067808 /* SYCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE249D81D460F9500067808 /* SYCarouselView.m */; };
+		BCE249DB1D46107700067808 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE249DA1D46107700067808 /* placeholder.png */; };
+		BCE249E21D46123800067808 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE249DD1D46123800067808 /* 1.jpg */; };
+		BCE249E31D46123800067808 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE249DE1D46123800067808 /* 2.jpg */; };
+		BCE249E41D46123800067808 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE249DF1D46123800067808 /* 3.jpg */; };
+		BCE249E51D46123800067808 /* current.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE249E01D46123800067808 /* current.png */; };
+		BCE249E61D46123800067808 /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE249E11D46123800067808 /* other.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE249B51D460DC500067808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE249931D460DC500067808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE2499A1D460DC500067808;
+			remoteInfo = SYCarouselView;
+		};
+		BCE249C01D460DC500067808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE249931D460DC500067808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE2499A1D460DC500067808;
+			remoteInfo = SYCarouselView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE2499B1D460DC500067808 /* SYCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE2499F1D460DC500067808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE249A11D460DC500067808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCE249A21D460DC500067808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCE249AA1D460DC500067808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE249AD1D460DC500067808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE249AF1D460DC500067808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE249B41D460DC500067808 /* SYCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE249B81D460DC500067808 /* SYCarouselViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCarouselViewTests.m; sourceTree = "<group>"; };
+		BCE249BA1D460DC500067808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE249BF1D460DC500067808 /* SYCarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYCarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE249C31D460DC500067808 /* SYCarouselViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCarouselViewUITests.m; sourceTree = "<group>"; };
+		BCE249C51D460DC500067808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE249D31D460E3000067808 /* SYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYViewController.h; sourceTree = "<group>"; };
+		BCE249D41D460E3000067808 /* SYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYViewController.m; sourceTree = "<group>"; };
+		BCE249D71D460F9500067808 /* SYCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCarouselView.h; sourceTree = "<group>"; };
+		BCE249D81D460F9500067808 /* SYCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCarouselView.m; sourceTree = "<group>"; };
+		BCE249DA1D46107700067808 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		BCE249DD1D46123800067808 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BCE249DE1D46123800067808 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BCE249DF1D46123800067808 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		BCE249E01D46123800067808 /* current.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = current.png; sourceTree = "<group>"; };
+		BCE249E11D46123800067808 /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE249981D460DC500067808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE249B11D460DC500067808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE249BC1D460DC500067808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE249921D460DC500067808 = {
+			isa = PBXGroup;
+			children = (
+				BCE2499D1D460DC500067808 /* SYCarouselView */,
+				BCE249B71D460DC500067808 /* SYCarouselViewTests */,
+				BCE249C21D460DC500067808 /* SYCarouselViewUITests */,
+				BCE2499C1D460DC500067808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE2499C1D460DC500067808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE2499B1D460DC500067808 /* SYCarouselView.app */,
+				BCE249B41D460DC500067808 /* SYCarouselViewTests.xctest */,
+				BCE249BF1D460DC500067808 /* SYCarouselViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE2499D1D460DC500067808 /* SYCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249DC1D46123800067808 /* Images */,
+				BCE249D61D460F1700067808 /* CarouselView */,
+				BCE249D21D460E1600067808 /* Controllers */,
+				BCE249D11D460E0A00067808 /* Others */,
+				BCE2499E1D460DC500067808 /* Supporting Files */,
+			);
+			path = SYCarouselView;
+			sourceTree = "<group>";
+		};
+		BCE2499E1D460DC500067808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE2499F1D460DC500067808 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE249B71D460DC500067808 /* SYCarouselViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249B81D460DC500067808 /* SYCarouselViewTests.m */,
+				BCE249BA1D460DC500067808 /* Info.plist */,
+			);
+			path = SYCarouselViewTests;
+			sourceTree = "<group>";
+		};
+		BCE249C21D460DC500067808 /* SYCarouselViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249C31D460DC500067808 /* SYCarouselViewUITests.m */,
+				BCE249C51D460DC500067808 /* Info.plist */,
+			);
+			path = SYCarouselViewUITests;
+			sourceTree = "<group>";
+		};
+		BCE249D11D460E0A00067808 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249A11D460DC500067808 /* AppDelegate.h */,
+				BCE249A21D460DC500067808 /* AppDelegate.m */,
+				BCE249AA1D460DC500067808 /* Assets.xcassets */,
+				BCE249AC1D460DC500067808 /* LaunchScreen.storyboard */,
+				BCE249AF1D460DC500067808 /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		BCE249D21D460E1600067808 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249D31D460E3000067808 /* SYViewController.h */,
+				BCE249D41D460E3000067808 /* SYViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BCE249D61D460F1700067808 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249DA1D46107700067808 /* placeholder.png */,
+				BCE249D71D460F9500067808 /* SYCarouselView.h */,
+				BCE249D81D460F9500067808 /* SYCarouselView.m */,
+			);
+			name = CarouselView;
+			sourceTree = "<group>";
+		};
+		BCE249DC1D46123800067808 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BCE249DD1D46123800067808 /* 1.jpg */,
+				BCE249DE1D46123800067808 /* 2.jpg */,
+				BCE249DF1D46123800067808 /* 3.jpg */,
+				BCE249E01D46123800067808 /* current.png */,
+				BCE249E11D46123800067808 /* other.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE2499A1D460DC500067808 /* SYCarouselView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE249C81D460DC500067808 /* Build configuration list for PBXNativeTarget "SYCarouselView" */;
+			buildPhases = (
+				BCE249971D460DC500067808 /* Sources */,
+				BCE249981D460DC500067808 /* Frameworks */,
+				BCE249991D460DC500067808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYCarouselView;
+			productName = SYCarouselView;
+			productReference = BCE2499B1D460DC500067808 /* SYCarouselView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE249B31D460DC500067808 /* SYCarouselViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE249CB1D460DC500067808 /* Build configuration list for PBXNativeTarget "SYCarouselViewTests" */;
+			buildPhases = (
+				BCE249B01D460DC500067808 /* Sources */,
+				BCE249B11D460DC500067808 /* Frameworks */,
+				BCE249B21D460DC500067808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE249B61D460DC500067808 /* PBXTargetDependency */,
+			);
+			name = SYCarouselViewTests;
+			productName = SYCarouselViewTests;
+			productReference = BCE249B41D460DC500067808 /* SYCarouselViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE249BE1D460DC500067808 /* SYCarouselViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE249CE1D460DC500067808 /* Build configuration list for PBXNativeTarget "SYCarouselViewUITests" */;
+			buildPhases = (
+				BCE249BB1D460DC500067808 /* Sources */,
+				BCE249BC1D460DC500067808 /* Frameworks */,
+				BCE249BD1D460DC500067808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE249C11D460DC500067808 /* PBXTargetDependency */,
+			);
+			name = SYCarouselViewUITests;
+			productName = SYCarouselViewUITests;
+			productReference = BCE249BF1D460DC500067808 /* SYCarouselViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE249931D460DC500067808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zhimai;
+				TargetAttributes = {
+					BCE2499A1D460DC500067808 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JA755BS9FL;
+					};
+					BCE249B31D460DC500067808 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JA755BS9FL;
+						TestTargetID = BCE2499A1D460DC500067808;
+					};
+					BCE249BE1D460DC500067808 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JA755BS9FL;
+						TestTargetID = BCE2499A1D460DC500067808;
+					};
+				};
+			};
+			buildConfigurationList = BCE249961D460DC500067808 /* Build configuration list for PBXProject "SYCarouselView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE249921D460DC500067808;
+			productRefGroup = BCE2499C1D460DC500067808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE2499A1D460DC500067808 /* SYCarouselView */,
+				BCE249B31D460DC500067808 /* SYCarouselViewTests */,
+				BCE249BE1D460DC500067808 /* SYCarouselViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE249991D460DC500067808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE249E51D46123800067808 /* current.png in Resources */,
+				BCE249AE1D460DC500067808 /* LaunchScreen.storyboard in Resources */,
+				BCE249E21D46123800067808 /* 1.jpg in Resources */,
+				BCE249E31D46123800067808 /* 2.jpg in Resources */,
+				BCE249E41D46123800067808 /* 3.jpg in Resources */,
+				BCE249DB1D46107700067808 /* placeholder.png in Resources */,
+				BCE249E61D46123800067808 /* other.png in Resources */,
+				BCE249AB1D460DC500067808 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE249B21D460DC500067808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE249BD1D460DC500067808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE249971D460DC500067808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE249D91D460F9500067808 /* SYCarouselView.m in Sources */,
+				BCE249D51D460E3000067808 /* SYViewController.m in Sources */,
+				BCE249A31D460DC500067808 /* AppDelegate.m in Sources */,
+				BCE249A01D460DC500067808 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE249B01D460DC500067808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE249B91D460DC500067808 /* SYCarouselViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE249BB1D460DC500067808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE249C41D460DC500067808 /* SYCarouselViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE249B61D460DC500067808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE2499A1D460DC500067808 /* SYCarouselView */;
+			targetProxy = BCE249B51D460DC500067808 /* PBXContainerItemProxy */;
+		};
+		BCE249C11D460DC500067808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE2499A1D460DC500067808 /* SYCarouselView */;
+			targetProxy = BCE249C01D460DC500067808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE249AC1D460DC500067808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE249AD1D460DC500067808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE249C61D460DC500067808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCE249C71D460DC500067808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE249C91D460DC500067808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYCarouselView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zm.SYCarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCE249CA1D460DC500067808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYCarouselView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zm.SYCarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCE249CC1D460DC500067808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYCarouselViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zm.SYCarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYCarouselView.app/SYCarouselView";
+			};
+			name = Debug;
+		};
+		BCE249CD1D460DC500067808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYCarouselViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zm.SYCarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYCarouselView.app/SYCarouselView";
+			};
+			name = Release;
+		};
+		BCE249CF1D460DC500067808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYCarouselViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zm.SYCarouselViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYCarouselView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCE249D01D460DC500067808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYCarouselViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zm.SYCarouselViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYCarouselView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE249961D460DC500067808 /* Build configuration list for PBXProject "SYCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE249C61D460DC500067808 /* Debug */,
+				BCE249C71D460DC500067808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE249C81D460DC500067808 /* Build configuration list for PBXNativeTarget "SYCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE249C91D460DC500067808 /* Debug */,
+				BCE249CA1D460DC500067808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE249CB1D460DC500067808 /* Build configuration list for PBXNativeTarget "SYCarouselViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE249CC1D460DC500067808 /* Debug */,
+				BCE249CD1D460DC500067808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE249CE1D460DC500067808 /* Build configuration list for PBXNativeTarget "SYCarouselViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE249CF1D460DC500067808 /* Debug */,
+				BCE249D01D460DC500067808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE249931D460DC500067808 /* Project object */;
+}
